@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Racing+Sans+One');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.btn-primary{
+    background-color: #FFA500;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-primary:hover{
+    background-color: #f09c00;
+}
+
+.main-heading{
+    font-family: 'Racing Sans One', cursive;
+}
