@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import mainLogo from "../../assets/icons/microsoft-stream.svg";
+import { FiSearch } from "react-icons/fi";
 
 const Hero = () => {
   return (
@@ -10,13 +11,16 @@ const Hero = () => {
           <Image width={350} src={mainLogo} alt="..." />
         </div>
         <div className="col-span-2">
-          <h1 className="text-5xl font-bold">Stream Next</h1>
+          <h1 className="text-5xl font-bold main-heading">Stream Next</h1>
           <p className="font-medium">
             Everybody wants to see a great movie with his friends and family
             every once in a while and Stream Next is the exact place for that!
-            Start by Searching or by Navigating the OnionPlay Top Menu, You will
-            find something to Watch in a matter of seconds!
+            Start by Searching or by Navigating the StreamNext Top Menu, You
+            will find something to Watch in a matter of seconds!
           </p>
+          <button className="btn-secondary flex mx-auto rounded-full items-center mt-3">
+            Browse <FiSearch className="ml-2" />
+          </button>
         </div>
       </div>
     </div>
