@@ -11,15 +11,17 @@ const Hero = () => {
           <Image width={350} src={mainLogo} alt="..." />
         </div>
         <div className="col-span-2">
-          <h1 className="text-5xl font-bold main-heading">Stream Next</h1>
-          <p className="font-medium">
+          <h1 className="text-5xl mb-[1rem] font-bold main-heading">
+            Stream Next
+          </h1>
+          <p className="font-medium text-gray-500">
             Everybody wants to see a great movie with his friends and family
             every once in a while and Stream Next is the exact place for that!
             Start by Searching or by Navigating the StreamNext Top Menu, You
             will find something to Watch in a matter of seconds!
           </p>
           <button className="btn-secondary flex mx-auto rounded-full items-center mt-3">
-            Browse <FiSearch className="ml-2" />
+            Browse <FiSearch className="ml-[1rem]" />
           </button>
         </div>
       </div>
