@@ -6,6 +6,7 @@ import styles from '@/styles/Home.module.css'
 import Header from '@/components/header'
 import Hero from '@/components/home/hero'
 import Trending from '@/components/home/trending'
+import Footer from '@/components/footer'
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
           <Hero/>
           <Trending/>
         </div>
-        
+        <Footer/> 
       </div>
   )
 }
