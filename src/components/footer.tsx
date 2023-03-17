@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import mainLogo from '../assets/icons/microsoft-stream.svg'
+import ThemeModeButton from './ThemeModeButton'
 
 const Footer = () => {
     return (
@@ -12,6 +13,7 @@ const Footer = () => {
                             <Image src={mainLogo} className="w-[50px] mr-3 " alt="FlowBite Logo" />
                             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white main-heading text-pink-700">Stream Next</span>
                         </a>
+                        <ThemeModeButton/>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
