@@ -1,18 +1,18 @@
 import React from "react";
 import Image from "next/image";
-import mainLogo from "../../assets/icons/microsoft-stream.svg";
+import nextLogo from "../../assets/icons/nextlogo.png";
 import { FiSearch } from "react-icons/fi";
 
-const Hero = () => {
+const About = () => {
   return (
     <div>
       <div className="grid grid-cols-3 w-[70%] mx-auto text-center items-center py-[3rem]">
         <div className="col-span-1">
-          <Image width={350} src={mainLogo} alt="..." />
+          <Image width={350} src={nextLogo} alt="..." />
         </div>
         <div className="col-span-2">
           <h1 className="text-5xl mb-[1rem] font-bold main-heading">
-            Stream Next
+            About US
           </h1>
           <p className="font-medium text-gray-500">
             Everybody wants to see a great movie with his friends and family
@@ -29,4 +29,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default About;

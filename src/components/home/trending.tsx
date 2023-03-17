@@ -11,9 +11,9 @@ const Trending = () => {
                 <h1 className='md:text-4xl font-bold text-center mb-2 '>Whats Trending</h1>
                 <p className='mb-5 text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corrupti sit recusandae nulla nam fugiat libero sapiente eaque deleniti a quibusdam voluptatibus harum facere fuga quas, porro, minima iure aperiam?</p>
                 <div className='md:grid md:grid-cols-3 md:gap-10 '>
-                    <div className='w-full h-[15rem] bg-white rounded-lg hover:shadow-2xl'></div>
-                    <div className='w-full h-[15rem] bg-white rounded-lg hover:shadow-2xl'></div>
-                    <div className='w-full h-[15rem] bg-white rounded-lg hover:shadow-2xl'></div>
+                    <div className='w-full h-[20rem] bg-white rounded-3xl hover:shadow-2xl'></div>
+                    <div className='w-full h-[20rem] bg-white rounded-3xl hover:shadow-2xl'></div>
+                    <div className='w-full h-[20rem] bg-white rounded-3xl hover:shadow-2xl'></div>
                 </div>
                 </div>
             </div>

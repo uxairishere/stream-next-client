@@ -17,6 +17,32 @@
     background-color: #f09c00;
 }
 
+.btn-secondary{
+
+        font-family: Roboto, sans-serif;
+        font-weight: 0;
+        font-size: 14px;
+        color: #FFA500;
+        background-color: white;
+        padding: 10px 30px;
+        border: 1px solid #FFA500;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        border-radius: 50px;
+        transition : 1000ms;
+        transform: translateY(0);
+        
+       
+}
+
+.btn-secondary:hover{
+    transition : 1000ms;
+        padding: 10px 50px;
+        transform : translateY(-0px);
+        background-color: #FFA500;
+        color: white;
+        border: none;
+}
+
 .main-heading{
     font-family: 'Racing Sans One', cursive;
 }
