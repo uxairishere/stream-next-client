@@ -59,7 +59,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="/auth/signup"
+                href="./auth/signup"
                 className="block text-xl text-white border-[1px] px-5 py-2  rounded-full hover:bg-white hover:text-primary "
               >
                 Sign Up
