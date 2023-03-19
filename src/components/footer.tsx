@@ -6,7 +6,7 @@ import ThemeModeButton from './ThemeModeButton'
 const Footer = () => {
     return (
         <div>
-            <footer className="p-4  bg-primary sm:p-6 text-white dark:bg-gray-900">
+            <footer className="p-4  bg-primary sm:p-6 text-white dark:bg-[#111111]">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <a href="./" className="flex items-center">

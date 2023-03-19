@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <nav className="px-2 bg-primary border-gray-200 dark:bg-gray-900 dark:border-gray-700 py-3">
+    <nav className="px-2 bg-primary border-gray-200 dark:bg-[#111111] dark:border-gray-700 py-3">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="#" className="flex items-center">
           <Image
@@ -39,11 +39,11 @@ const Header = () => {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-          <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-primary md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-primary md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-[#111111] dark:border-gray-700">
             <li>
               <a
                 href="#"
-                className="block text-xl text-white border-[1px] px-5 py-2  rounded-full hover:bg-white hover:text-primary "
+                className="block text-xl text-white border-[1px] px-5 py-2  rounded-full hover:bg-white hover:text-primary dark:hover:text-[#111111] "
               >
                 About
               </a>
