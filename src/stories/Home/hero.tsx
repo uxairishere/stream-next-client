@@ -1,19 +1,20 @@
 import React from "react";
 import Image from "next/image";
-import mainLogo from "../../assets/icons/microsoft-stream.svg"; 
+import mainLogo from "../../assets/icons/microsoft-stream.svg";
 import { FiSearch } from "react-icons/fi";
+import { Button } from "../Button";
 
-const About = () => {
+
+const Hero = () => {
   return (
     <div>
       <div className="grid grid-cols-3 w-[70%] mx-auto text-center items-center py-[3rem]">
         <div className="col-span-1">
-        <Image width={350} height={350} src={mainLogo} alt="..." />
-
+          <Image width={350} height={350} src={mainLogo} alt="..." />
         </div>
         <div className="col-span-2">
           <h1 className="text-5xl mb-[1rem] font-bold main-heading">
-            About US
+            Stream Next
           </h1>
           <p className="font-medium text-gray-500">
             Everybody wants to see a great movie with his friends and family
@@ -21,13 +22,11 @@ const About = () => {
             Start by Searching or by Navigating the StreamNext Top Menu, You
             will find something to Watch in a matter of seconds!
           </p>
-          <button className="btn-secondary flex mx-auto rounded-full items-center mt-3">
-            Browse <FiSearch className="ml-[1rem]" />
-          </button>
+          <Button label="Browse" size="large"/>
         </div>
       </div>
     </div>
   );
 };
 
-export default About;
+export default Hero;
